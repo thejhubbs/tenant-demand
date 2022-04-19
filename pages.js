@@ -5,15 +5,17 @@ let pages = {
         topLogoElem.classList.add("top-logo");
 
         let tleImg = document.createElement("img");
-        tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo.png");
+        tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo-simple.png");
 
         topLogoElem.append(tleImg);
 
         let miniHeaderElem = document.createElement("h4");
+        miniHeaderElem.classList.add('center-header')
         miniHeaderElem.textContent =
             "Thank you for playing The Tenant Demand Game!";
 
         let headerElem = document.createElement("h2");
+        headerElem.classList.add('huge-serif-font')
         headerElem.textContent =
             "This may have been a little bit of fun, but in real life these are high-stakes, multi-million dollar decisions. And these decisions should be informed by data that reflects reality.";
 
@@ -52,6 +54,8 @@ let pages = {
         let elem = document.createElement("div");
         let topLogoElem = document.createElement("div");
         topLogoElem.classList.add("top-logo");
+        
+        topLogoElem.classList.add("final-top-logo");
 
         let tleImg = document.createElement("img");
         tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo.png");
@@ -59,6 +63,7 @@ let pages = {
         topLogoElem.append(tleImg);
 
         let headerElem = document.createElement("h3");
+        headerElem.classList.add('final-big-header')
         headerElem.textContent =
             "The only platform that creates insights on market activity in real-time";
 
@@ -112,6 +117,7 @@ let pages = {
 
         let resetButtonElem = document.createElement("div");
         resetButtonElem.classList.add("reset-button");
+        resetButtonElem.classList.add("final-content-button");
 
         let rbeIcon = document.createElement("img");
         rbeIcon.setAttribute("src", "https://thejhubbs.github.io/assets/home.png");
@@ -132,17 +138,24 @@ let pages = {
         topLogoElem.classList.add("top-logo");
 
         let tleImg = document.createElement("img");
-        tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo.png");
+        tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo-simple.png");
 
         topLogoElem.append(tleImg);
 
+        let subtitleElem = document.createElement("h5");
+        subtitleElem.classList.add('purple-subtitle');
+        subtitleElem.textContent = "Oh, awesome!"
+
+
         let textElem = document.createElement('h3')
+        textElem.classList.add('huge-serif-font')
         textElem.textContent = "Now that you've acquired your bulding, you're focused on leasing up to a 20k rsf floor that has sat vacant for nearly a year."
-        elem.append(textElem)
 
-        let nextButton = toQuestionButton("What happens next?", questions[history[0].redirect_id])
 
-        elem.append(topLogoElem, nextButton)
+        console.log(history, questions[history[0].redirect_id])
+        let nextButton = toQuestionButton("What happens next?", questions.filter(q => q.question_id === history[0].redirect_id)[0])
+
+        elem.append(topLogoElem, subtitleElem, textElem, nextButton)
 
         return elem;
     },
@@ -153,17 +166,22 @@ let pages = {
         topLogoElem.classList.add("top-logo");
 
         let tleImg = document.createElement("img");
-        tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo.png");
+        tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo-simple.png");
 
         topLogoElem.append(tleImg);
 
+        let subtitleElem = document.createElement("h5");
+        subtitleElem.classList.add('purple-subtitle');
+        subtitleElem.textContent = "You've done it!"
+
         let textElem = document.createElement('h3')
+        textElem.classList.add('huge-serif-font')
         textElem.textContent = "Your vacant floor is now ready to be brought to market! Care to see how well-positioned the floor is to meet active tenant demand?"
         elem.append(textElem)
 
         let nextButton = toPageButton("See your results", 'answers0')
 
-        elem.append(topLogoElem, nextButton)
+        elem.append(topLogoElem, subtitleElem, textElem, nextButton)
 
         return elem;
     },
@@ -171,7 +189,7 @@ let pages = {
 
     answers0: () => {
         let i = 0
-        
+
         let elem = document.createElement("div");
         elem.append(logo())
 
@@ -186,14 +204,14 @@ let pages = {
 
         elem.append(answersElem)
 
-        let nextButton = toPageButton("What comes next?", `answers${i+1}`)
+        let nextButton = toPageButton("Next", `answers${i + 1}`)
         elem.append(nextButton)
 
         return elem;
     },
     answers1: () => {
         let i = 1
-        
+
         let elem = document.createElement("div");
         elem.append(logo())
 
@@ -208,14 +226,14 @@ let pages = {
 
         elem.append(answersElem)
 
-        let nextButton = toPageButton("What comes next?", `answers${i+1}`)
+        let nextButton = toPageButton("Next", `answers${i + 1}`)
         elem.append(nextButton)
 
         return elem;
     },
     answers2: () => {
         let i = 2
-        
+
         let elem = document.createElement("div");
         elem.append(logo())
 
@@ -230,14 +248,14 @@ let pages = {
 
         elem.append(answersElem)
 
-        let nextButton = toPageButton("What comes next?", `answers${i+1}`)
+        let nextButton = toPageButton("Next", `answers${i + 1}`)
         elem.append(nextButton)
 
         return elem;
     },
     answers3: () => {
         let i = 3
-        
+
         let elem = document.createElement("div");
         elem.append(logo())
 
@@ -252,14 +270,14 @@ let pages = {
 
         elem.append(answersElem)
 
-        let nextButton = toPageButton("What comes next?", `answers${i+1}`)
+        let nextButton = toPageButton("Next", `answers${i + 1}`)
         elem.append(nextButton)
 
         return elem;
     },
     answers4: () => {
         let i = 4
-        
+
         let elem = document.createElement("div");
         elem.append(logo())
 
@@ -274,53 +292,98 @@ let pages = {
 
         elem.append(answersElem)
 
-        let nextButton = toPageButton("What comes next?", `secondHalf`)
+        let nextButton = toPageButton("Next", `answers${i + 1}`)
+        elem.append(nextButton)
+
+        return elem;
+    },
+    answers5: () => {
+        let i = 5
+
+        let elem = document.createElement("div");
+        elem.append(logo())
+
+        let answersElem = document.createElement('div')
+        answersElem.setAttribute('id', 'answers-review')
+
+        let answer = history[i]
+
+        let singleEntry = displayResults(answer, i)
+
+        answersElem.append(singleEntry)
+
+        elem.append(answersElem)
+
+        let nextButton = toPageButton("Next", `secondHalf`)
         elem.append(nextButton)
 
         return elem;
     },
 
-    
+
     secondHalf: () => {
         let elem = document.createElement("div");
         let topLogoElem = document.createElement("div");
         topLogoElem.classList.add("top-logo");
 
         let tleImg = document.createElement("img");
-        tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo.png");
+        tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo-simple.png");
 
         topLogoElem.append(tleImg);
-        
+
+        let questionBreakElem = document.createElement("div");
+        questionBreakElem.classList.add("break-block-center");
+
         let textElem = document.createElement('h3')
+        textElem.classList.add('huge-serif-font')
         textElem.textContent = "Now that you're getting new tenants to tour your vacant floor, it's time to build out a new amenity that really gets your tenants excited to come to the office."
-        elem.append(textElem)
+
 
         let nextButton = toQuestionButton("Build your amenity", questions.filter(q => q.question_id === 15)[0])
 
-        elem.append(topLogoElem, nextButton)
+        elem.append(topLogoElem, questionBreakElem, textElem, nextButton)
 
         return elem;
     },
 
-    answers5: () => {
-        let i = 5
-        
-        let elem = document.createElement("div");
-        elem.append(logo())
+    answers6: () => {
+        let i = 6
 
-        let answersElem = document.createElement('div')
-        answersElem.setAttribute('id', 'answers-review')
+        let elem = document.createElement("div");
+        elem.append(altLogo())
+
 
         let answer = history[i]
-console.log(history)
-        let singleEntry = displayResults(answer, i)
+        let question = questions.filter(q => q.question_id === answer.parent_question_id)[0]
+        
+        let textElem = document.createElement('h3')
+        textElem.textContent = answer.after_text
+        textElem.classList.add('center-header')
+        textElem.style.marginTop = '0';
 
-        answersElem.append(singleEntry)
+        elem.append(textElem)
 
-        elem.append(answersElem)
+        let qAnswers = answers.filter(
+            (a) => a.parent_question_id === question.question_id
+        );
+
+        let answersElem = document.createElement("div");
+        answersElem.setAttribute("id", "answers-space");
+        elem.append(answersElem);
+
+        qAnswers.forEach((a) => answersElem.append(displayFinalAnswer(a, answer)));
+
+        if (qAnswers[0].image) {
+            answersElem.classList.add("image-answers");
+        }
+
+        let noteElem = document.createElement('p')
+        noteElem.textContent = "Note: Percentages are based on total share of traffic across all bookable amenities in VTS Rise-powered buildings in New York (last 180 days)"
+        noteElem.style.fontSize = '1rem';
+        noteElem.style.textAlign = 'center';
 
         let nextButton = toPageButton("What comes next?", `summary`)
-        elem.append(nextButton)
+        elem.append(noteElem, nextButton)
 
         return elem;
     },
@@ -373,14 +436,50 @@ const button = (text) => {
 
 
 const logo = () => {
+    let elem = document.createElement("div");
+
     let topLogoElem = document.createElement("div");
     topLogoElem.classList.add("top-logo");
 
     let tleImg = document.createElement("img");
-    tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo.png");
+    tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo-simple.png");
 
     topLogoElem.append(tleImg);
-    return topLogoElem
+
+
+    let subtitleElem = document.createElement("h5");
+    subtitleElem.classList.add('purple-subtitle');
+    subtitleElem.textContent = "Huzzah!"
+
+    let textElem = document.createElement('h3')
+    textElem.textContent = "The results are in!"
+    textElem.classList.add('center-header')
+    textElem.style.marginTop = '0';
+
+    elem.append(topLogoElem, subtitleElem, textElem)
+
+    return elem
+}
+const altLogo = () => {
+    let elem = document.createElement("div");
+
+    let topLogoElem = document.createElement("div");
+    topLogoElem.classList.add("top-logo");
+
+    let tleImg = document.createElement("img");
+    tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo-simple.png");
+
+    topLogoElem.append(tleImg);
+
+
+    let subtitleElem = document.createElement("h5");
+    subtitleElem.classList.add('purple-subtitle');
+    subtitleElem.textContent = "Nice Work!"
+
+
+    elem.append(topLogoElem, subtitleElem)
+
+    return elem
 }
 
 const displayResults = (answer, i) => {
@@ -398,7 +497,7 @@ const displayResults = (answer, i) => {
         answerElem.innerHTML += `<p>${answer.value}</p>`
 
         let feebackElem = document.createElement('div')
-        feebackElem.innerHTML += `<h3>What the data says</h3>`
+        feebackElem.innerHTML += `<h3>What data tells us</h3>`
 
         let lowBound = question.correct * 0.95;
         let highBound = question.correct * 1.05;
@@ -431,7 +530,7 @@ const displayResults = (answer, i) => {
         answerElem.innerHTML += `<p>${answer.text}</p>`
 
         let feebackElem = document.createElement('div')
-        feebackElem.innerHTML += `<h3>What the data says</h3>`
+        feebackElem.innerHTML += `<h3>What data tells us</h3>`
         feebackElem.innerHTML += `<p>${answer.after_text}</p>`
 
         singleEntry.append(questionElem, answerElem, feebackElem)
@@ -439,3 +538,32 @@ const displayResults = (answer, i) => {
 
     return singleEntry
 }
+
+
+const displayFinalAnswer = (answer, chosenAnswer) => {
+    let newElem = document.createElement("div");
+    newElem.classList.add("answer-option");
+
+        let imageElem = document.createElement("img");
+        imageElem.setAttribute("src", answer.image);
+        newElem.append(imageElem);
+
+        
+
+    let statElem = document.createElement("div");
+    statElem.classList.add('stat-element')
+    statElem.textContent = answer.statistic + "%";
+    newElem.append(statElem);
+
+    let textElem = document.createElement("p");
+    textElem.textContent = answer.text;
+
+    if(answer.text === chosenAnswer.text){
+        textElem.style.color = "green" 
+        textElem.style.fontWeight = "bold" 
+    }
+
+    newElem.append(textElem);
+
+    return newElem;
+};

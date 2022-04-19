@@ -1,14 +1,15 @@
 let questions = [
     {
       question_id: 1,
-      text: "What building do you want to acquire?",
+      text: "First - which building would you like to acquire to expand your Class A Portfolio?",
       kind: "multiple",
+      subtitle: "Let's get started!",
       display: false
     },
     {
       question_id: 2,
       text:
-        "There's an opportunity to break up the vacant floor (20k rsf) into multiple spaces. How do you want to break up the floor?",
+        "There's an opportunity to break up the vacant floor (20k rsf) into multiple spaces. How do you want to break up the floor? ",
       kind: "multiple",
       background: "https://thejhubbs.github.io/assets/nyc-bkg.png",
       display: 1
@@ -66,7 +67,7 @@ let questions = [
       text: "What asking rent do you want to set?",
       kind: "range",
       background: "https://thejhubbs.github.io/assets/nyc-bkg.png",
-      display: 5,
+      display: 4,
   
       correct: 82,
       under_text:
@@ -83,7 +84,7 @@ let questions = [
       text: "What asking rent do you want to set?",
       kind: "range",
       background: "https://thejhubbs.github.io/assets/nyc-bkg.png",
-      display: 5,
+      display: 4,
   
       correct: 82,
       under_text:
@@ -100,7 +101,7 @@ let questions = [
       text: "What asking rent do you want to set?",
       kind: "range",
       background: "https://thejhubbs.github.io/assets/nyc-bkg.png",
-      display: 5,
+      display: 4,
   
       correct: 82,
       under_text:
@@ -119,7 +120,7 @@ let questions = [
         "Last question before going to market! How do you want tenants to experience your spaces online?",
       kind: "multiple",
       background: "https://thejhubbs.github.io/assets/nyc-bkg.png",
-      display: 6
+      display: 5
     },
     {
       question_id: 13,
@@ -127,7 +128,7 @@ let questions = [
         "Last question before going to market! How do you want tenants to experience your spaces online?",
       kind: "multiple",
       background: "https://thejhubbs.github.io/assets/nyc-bkg.png",
-      display: 6
+      display: 5
     },
     {
       question_id: 14,
@@ -135,7 +136,7 @@ let questions = [
         "Last question before going to market! How do you want tenants to experience your spaces online?",
       kind: "multiple",
       background: "https://thejhubbs.github.io/assets/nyc-bkg.png",
-      display: 6
+      display: 5
     },
   
     {
@@ -144,6 +145,6 @@ let questions = [
         "Which amenity would you like to build out in your newly acquired building?",
       kind: "multiple",
       background: "https://thejhubbs.github.io/assets/nyc-bkg.png",
-      display: 7
+      display: 6
     }
   ];

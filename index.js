@@ -18,16 +18,26 @@ const displayQuestion = (question) => {
     screenElem.innerHTML = "";
     screenElem.append(elem);
 
+    if(question.kind === 'range') { 
+        elem.classList.add('range-question')
+    }
+
     let topLogoElem = document.createElement("div");
     topLogoElem.classList.add("top-logo");
 
     let tleImg = document.createElement("img");
-    tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo.png");
+    tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo-simple.png");
 
     topLogoElem.append(tleImg);
 
+    
+
     let questionNumElem = document.createElement("h4");
-    questionNumElem.textContent = `QUESTION ` + question.display;
+    if(question.display === 6) {
+        questionNumElem.textContent = `FINAL QUESTION`;
+    } else {
+        questionNumElem.textContent = `QUESTION ` + question.display;
+    }
 
     let questionTextElem = document.createElement("h2");
     questionTextElem.textContent = question.text;
@@ -41,7 +51,20 @@ const displayQuestion = (question) => {
         elem.append(topLogoElem);
     }
 
-    elem.append(questionTextElem, questionBreakElem);
+    if(question.subtitle) {
+        let subtitleElem = document.createElement("h5");
+        subtitleElem.classList.add('purple-subtitle');
+        subtitleElem.textContent = question.subtitle
+        elem.append(subtitleElem)
+
+        questionTextElem.classList.add('center-header')
+    }
+
+    elem.append(questionTextElem);
+
+    if (question.display) {
+        elem.append(questionBreakElem);
+    } 
 
     if (question.kind === "multiple") {
         let qAnswers = answers.filter(
@@ -65,6 +88,7 @@ const displayQuestion = (question) => {
         let entryTextElem = document.createElement("span");
 
         entryTextElem.textContent = "$ per sf/yr";
+        entryTextElem.classList.add('huge-serif-font')
 
         entryElem.append(entryInputElem, entryTextElem);
 
@@ -154,6 +178,7 @@ const displayAnswer = (answer) => {
 };
 
 const displayHome = () => {
+    delete history
     history = []
 
     let main = document.getElementById("tdgame");
@@ -166,13 +191,17 @@ const displayHome = () => {
     hpeLogo.setAttribute("src", "https://thejhubbs.github.io/assets/logo.png");
 
     let hpeHeader = document.createElement("h1");
+    hpeHeader.setAttribute("id", "home-explain-header");
     hpeHeader.textContent = "The tenant demand game";
 
     let hpeText = document.createElement("p");
+    hpeText.setAttribute("id", "home-explain-text");
+    
     hpeText.textContent =
         "You are the Head of Asset Management for a 5M rst portfolio of Class A office properties. Recently you and the Investments team have been looking to expand your footprint to one of three major metros in the U.S.";
 
     let hpeSubheader = document.createElement("h3");
+    hpeSubheader.setAttribute("id", "home-explain-list-header");
     hpeSubheader.textContent = "Your job is to:";
 
     let hpeLi1 = document.createElement("li");
@@ -187,6 +216,7 @@ const displayHome = () => {
         "Build a new amenity in the building to attract tenants back to the office";
 
     let hpeList = document.createElement("ul");
+    hpeList.setAttribute("id", "home-explain-list");
     hpeList.append(hpeLi1, hpeLi2, hpeLi3, hpeLi4);
 
     let hpeButton = document.createElement("div");

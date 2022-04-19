@@ -1,7 +1,7 @@
 
   let answers = [
     {
-      text: "NYC- Midtown",
+      text: "New York | Midtown South",
       parent_question_id: 1,
       //to_question_id: 2,
       to_question_id: 'prequestions',
@@ -12,7 +12,7 @@
       image: "https://thejhubbs.github.io/assets/ny.png"
     },
     {
-      text: "Chicago- Fulton Market",
+      text: "Chicago | Fulton Market",
       parent_question_id: 1,
       //to_question_id: 6,
       to_question_id: 'prequestions',
@@ -23,11 +23,11 @@
       image: "https://thejhubbs.github.io/assets/ch.png"
     },
     {
-      text: "SF- South Financial District",
+      text: "San Francisco | South Financial",
       parent_question_id: 1,
       //to_question_id: 'summary',
       to_question_id: 'prequestions',
-      redirect_id: 1,
+      redirect_id: 15,
       after_text:
         "Great choice! In fact - it's the best choice on the board with 196% year-over-year growth in tenant requirements...not that Fulton Market or Midtown NYC would've been bad choices (105% year-over-year growth and 136% year-over-year growth in tenant requirements, respectively).",
       order: 3,
@@ -261,7 +261,8 @@
       redirect_id: 15,
       after_text:
         "Solid choice! According to VTS market, videos of raw listings in Midtown are more likely to get viewed than a Matterport of the space. However, your best bet would have been to get a 3D rendering created which is 10% more likely to get viewed.",
-      order: 1
+      order: 1,
+      image: "https://thejhubbs.github.io/assets/ny.png"
     },
     {
       text: "3D Rendering",
@@ -270,7 +271,8 @@
       redirect_id: 15,
       after_text:
         "Great choice! According to VTS Market, over the last 90 days, 3D renderings of raw listings are 10% more likely to get viewed than a video, while Matterports are uncommonly used for raw spaces (just two published in the last 90 days).",
-      order: 2
+      order: 2,
+      image: "https://thejhubbs.github.io/assets/ny.png"
     },
     {
       text: "Matterport",
@@ -279,7 +281,8 @@
       redirect_id: 15,
       after_text:
         "An interesting choice! It's quite uncommon to see Matterports for raw listings (just two published in the last 90 days from VTS Market). Your best bet would have been to get a 3D rendering created, which is at least 10% more likely to be viewed than any other virtual tour type. ",
-      order: 3
+      order: 3,
+      image: "https://thejhubbs.github.io/assets/ny.png"
     },
   
     {
@@ -289,7 +292,8 @@
       redirect_id: 15,
       after_text:
         "Solid choice! According to VTS Market, videos of whitebox listings are more likely to get viewed than a video of the space. However, your best bet would have been to get a Matterport created, which is 3X more likely to get viewed.",
-      order: 1
+      order: 1,
+      image: "https://thejhubbs.github.io/assets/ny.png"
     },
     {
       text: "3D Rendering",
@@ -298,7 +302,8 @@
       redirect_id:15,
       after_text:
         "An understandable choice! 3D renderings can be highly engaging, but there were better options for your whitebox listing. According to VTS Market, videos of whitebox listings are over 2X more likely to be viewed), and Matterports are over 3X more likely to be viewed.",
-      order: 2
+      order: 2,
+      image: "https://thejhubbs.github.io/assets/ny.png"
     },
     {
       text: "Matterport",
@@ -307,7 +312,8 @@
       redirect_id: 15,
       after_text:
         "Great choice! According to VTS Market, Matterports are the most engaged-with virtual tour type for whitebox listings, as they are 36% more likely to be viewed than videos and 3X more likely to be viewed than a 3D rendering.. ",
-      order: 3
+      order: 3,
+      image: "https://thejhubbs.github.io/assets/ny.png"
     },
   
     {
@@ -317,7 +323,8 @@
       redirect_id: 15,
       after_text:
         "Great choice! According to VTS Market, over the last 90 days videos of pre-built listings are 3X more likely to get viewed than a 3D rendering or Matterport.",
-      order: 1
+      order: 1,
+      image: "https://thejhubbs.github.io/assets/ny.png"
     },
     {
       text: "3D Rendering",
@@ -326,7 +333,8 @@
       redirect_id: 15,
       after_text:
         "An interesting choice! 3D renderings can be highly engaging (we've seen as many as 31 rendering views for a single pre-built listing), but videos are 3X more likely to get viewed according to VTS Market.",
-      order: 2
+      order: 2,
+      image: "https://thejhubbs.github.io/assets/ny.png"
     },
     {
       text: "Matterport",
@@ -335,38 +343,47 @@
       redirect_id: 15,
       after_text:
         "An understandable choice! According to VTS Market, Matterports are a commonly-used virtual tour type for pre-built listings. However, your best bet would have been to get a video created for your pre-built listing, which is 3X more likely to get viewed.",
-      order: 3
+      order: 3,
+      image: "https://thejhubbs.github.io/assets/ny.png"
     },
   
     {
       text: "Onsite Cafe",
       parent_question_id: 15,
-      to_question_id: "answers5",
+      to_question_id: "answers6",
       after_text: "Solid! If you build it, they will (probably) come.",
-      order: 1
+      statistic: "12",
+      order: 1,
+      image: "https://thejhubbs.github.io/assets/ny.png"
     },
     {
       text: "Fitness Center",
       parent_question_id: 15,
-      to_question_id: "answers5",
+      to_question_id: "answers6",
       after_text:
         "Boo-yah! Excellent choice, that amenity will really get the tenants going.",
-      order: 2
+        statistic: "76",
+      order: 2,
+      image: "https://thejhubbs.github.io/assets/ny.png"
     },
     {
       text: "Tenant Lounge",
       parent_question_id: 15,
-      to_question_id: "answers5",
+      to_question_id: "answers6",
       after_text:
         "Ok! There are more popular options, but you didn't become a success by doing what everyone else is doing - right?",
-      order: 3
+        statistic: "2",
+      order: 3,
+      image: "https://thejhubbs.github.io/assets/ny.png"
     },
     {
       text: "Outdoor Space",
       parent_question_id: 15,
-      to_question_id: "answers5",
+      to_question_id: "answers6",
       after_text:
         "Ok! There are more popular options, but you didn't become a success by doing what everyone else is doing - right?",
-      order: 4
+        statistic: "10",
+      order: 4,
+      image: "https://thejhubbs.github.io/assets/ny.png"
     }
   ];

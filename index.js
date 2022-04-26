@@ -10,7 +10,7 @@ const displayQuestion = (question) => {
     if (question.background) {
         main.style.backgroundImage = `url('${question.background}')`;
     } else {
-        main.style.backgroundImage = `url('https://thejhubbs.github.io/assets/mainbg.png')`;
+        main.style.backgroundImage = `url('./mainbg.png')`;
     }
 
     let elem = document.createElement("div");
@@ -26,7 +26,7 @@ const displayQuestion = (question) => {
     topLogoElem.classList.add("top-logo");
 
     let tleImg = document.createElement("img");
-    tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo-simple.png");
+    tleImg.setAttribute("src", "./logo-simple.svg");
 
     topLogoElem.append(tleImg);
 
@@ -107,7 +107,7 @@ const displayQuestion = (question) => {
         let hpebArrowImg = document.createElement("img");
         hpebArrowImg.setAttribute(
             "src",
-            "https://thejhubbs.github.io/assets/down-arrow.png"
+            "./down-arrow.svg"
         );
 
         hpebArrow.append(hpebArrowImg);
@@ -129,7 +129,7 @@ const displayQuestion = (question) => {
     resetButtonElem.classList.add("reset-button");
 
     let rbeIcon = document.createElement("img");
-    rbeIcon.setAttribute("src", "https://thejhubbs.github.io/assets/home.png");
+    rbeIcon.setAttribute("src", "./home.svg");
 
     resetButtonElem.append(rbeIcon);
 
@@ -182,13 +182,13 @@ const displayHome = () => {
     history = []
 
     let main = document.getElementById("tdgame");
-    main.style.backgroundImage = `url('https://thejhubbs.github.io/assets/bg-border.png')`;
+    main.style.backgroundImage = `url('./bg-border.png')`;
 
     let homePageElem = document.createElement("div");
 
     let hpeLogo = document.createElement("img");
     hpeLogo.classList.add("main-logo");
-    hpeLogo.setAttribute("src", "https://thejhubbs.github.io/assets/logo.png");
+    hpeLogo.setAttribute("src", "./logo.svg");
 
     let hpeHeader = document.createElement("h1");
     hpeHeader.setAttribute("id", "home-explain-header");
@@ -232,7 +232,7 @@ const displayHome = () => {
     let hpebArrowImg = document.createElement("img");
     hpebArrowImg.setAttribute(
         "src",
-        "https://thejhubbs.github.io/assets/down-arrow.png"
+        "./down-arrow.svg"
     );
 
     hpebArrow.append(hpebArrowImg);
@@ -293,7 +293,7 @@ displayHome();
 //         let hpebArrowImg = document.createElement("img");
 //         hpebArrowImg.setAttribute(
 //             "src",
-//             "https://thejhubbs.github.io/assets/down-arrow.png"
+//             "./down-arrow.svg"
 //         );
 
 //         hpebArrow.append(hpebArrowImg);
@@ -344,7 +344,7 @@ displayHome();
     // let hpebArrowImg = document.createElement("img");
     // hpebArrowImg.setAttribute(
     //     "src",
-    //     "https://thejhubbs.github.io/assets/down-arrow.png"
+    //     "./down-arrow.svg"
     // );
 
     // hpebArrow.append(hpebArrowImg);

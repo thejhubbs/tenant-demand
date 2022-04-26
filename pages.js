@@ -5,7 +5,7 @@ let pages = {
         topLogoElem.classList.add("top-logo");
 
         let tleImg = document.createElement("img");
-        tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo-simple.png");
+        tleImg.setAttribute("src", "./logo-simple.svg");
 
         topLogoElem.append(tleImg);
 
@@ -32,7 +32,7 @@ let pages = {
         let hpebArrowImg = document.createElement("img");
         hpebArrowImg.setAttribute(
             "src",
-            "https://thejhubbs.github.io/assets/down-arrow.png"
+            "./down-arrow.svg"
         );
 
         hpebArrow.append(hpebArrowImg);
@@ -49,7 +49,7 @@ let pages = {
     },
     final: () => {
         let main = document.getElementById("tdgame");
-        main.style.backgroundImage = `url('https://thejhubbs.github.io/assets/bg-border.png')`;
+        main.style.backgroundImage = `url('./bg-border.png')`;
 
         let elem = document.createElement("div");
         let topLogoElem = document.createElement("div");
@@ -58,7 +58,7 @@ let pages = {
         topLogoElem.classList.add("final-top-logo");
 
         let tleImg = document.createElement("img");
-        tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo.png");
+        tleImg.setAttribute("src", "./logo.svg");
 
         topLogoElem.append(tleImg);
 
@@ -109,7 +109,7 @@ let pages = {
         imgDivElem.classList.add("final-img");
 
         let imgElem = document.createElement("img");
-        imgElem.setAttribute("src", "https://thejhubbs.github.io/assets/tablet.png");
+        imgElem.setAttribute("src", "./tablet.png");
 
         imgDivElem.append(imgElem);
 
@@ -120,7 +120,7 @@ let pages = {
         resetButtonElem.classList.add("final-content-button");
 
         let rbeIcon = document.createElement("img");
-        rbeIcon.setAttribute("src", "https://thejhubbs.github.io/assets/home.png");
+        rbeIcon.setAttribute("src", "./home.svg");
 
         resetButtonElem.append(rbeIcon);
 
@@ -138,7 +138,7 @@ let pages = {
         topLogoElem.classList.add("top-logo");
 
         let tleImg = document.createElement("img");
-        tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo-simple.png");
+        tleImg.setAttribute("src", "./logo-simple.svg");
 
         topLogoElem.append(tleImg);
 
@@ -166,7 +166,7 @@ let pages = {
         topLogoElem.classList.add("top-logo");
 
         let tleImg = document.createElement("img");
-        tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo-simple.png");
+        tleImg.setAttribute("src", "./logo-simple.svg");
 
         topLogoElem.append(tleImg);
 
@@ -327,7 +327,7 @@ let pages = {
         topLogoElem.classList.add("top-logo");
 
         let tleImg = document.createElement("img");
-        tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo-simple.png");
+        tleImg.setAttribute("src", "./logo-simple.svg");
 
         topLogoElem.append(tleImg);
 
@@ -339,7 +339,9 @@ let pages = {
         textElem.textContent = "Now that you're getting new tenants to tour your vacant floor, it's time to build out a new amenity that really gets your tenants excited to come to the office."
 
 
-        let nextButton = toQuestionButton("Build your amenity", questions.filter(q => q.question_id === 15)[0])
+        
+        let answer = history[5].redirect_id
+        let nextButton = toQuestionButton("Build your amenity", questions.filter(q => q.question_id === answer)[0])
 
         elem.append(topLogoElem, questionBreakElem, textElem, nextButton)
 
@@ -424,7 +426,7 @@ const button = (text) => {
     let hpebArrowImg = document.createElement("img");
     hpebArrowImg.setAttribute(
         "src",
-        "https://thejhubbs.github.io/assets/down-arrow.png"
+        "./down-arrow.svg"
     );
 
     hpebArrow.append(hpebArrowImg);
@@ -442,7 +444,7 @@ const logo = () => {
     topLogoElem.classList.add("top-logo");
 
     let tleImg = document.createElement("img");
-    tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo-simple.png");
+    tleImg.setAttribute("src", "./logo-simple.svg");
 
     topLogoElem.append(tleImg);
 
@@ -467,7 +469,7 @@ const altLogo = () => {
     topLogoElem.classList.add("top-logo");
 
     let tleImg = document.createElement("img");
-    tleImg.setAttribute("src", "https://thejhubbs.github.io/assets/logo-simple.png");
+    tleImg.setAttribute("src", "./logo-simple.svg");
 
     topLogoElem.append(tleImg);
 

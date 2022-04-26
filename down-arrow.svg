@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="94.3645px" height="94.34656px" viewBox="0 0 94.3645 94.34656" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient x1="0.8416418" y1="0.8548659" x2="0.19067496" y2="0.1236544" id="gradient_1">
+      <stop offset="0%" stop-color="#59C5C6" />
+      <stop offset="100%" stop-color="#8985F7" />
+    </linearGradient>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+    </filter>
+  </defs>
+  <g id="down-arrow" transform="translate(2.8398438 2.8399658)" filter="url(#filter_1)">
+    <path d="M52.1169 28.8635L67.5899 44.3333L52.1169 59.8032M63.8419 44.3333L21.1203 44.3333M88.6848 44.3333C88.6848 19.8487 68.832 -3.37315e-15 44.3424 0C19.8528 3.93534e-15 3.37384e-15 19.8487 0 44.3333C-2.81153e-15 68.818 19.8528 88.6667 44.3424 88.6667C56.1027 88.6667 67.3814 83.9958 75.6972 75.6817C84.013 67.3676 88.6848 56.0913 88.6848 44.3333L88.6848 44.3333Z" id="Shape" fill="none" fill-rule="evenodd" stroke="url(#gradient_1)" stroke-width="5.679917" stroke-linecap="round" stroke-linejoin="round" />
+  </g>
+</svg>

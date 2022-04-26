@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="179px" height="133px" viewBox="0 0 179 133" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="filter_1">
+      <feColorMatrix in="SourceGraphic" type="matrix" values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0" />
+    </filter>
+    <path d="M0 0L179 0L179 96.3467L0 96.3467L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="Group-11" filter="url(#filter_1)">
+    <g id="Group-10">
+      <path d="M89.573 29.938L119.204 50.2134L141.128 35.2753L89.573 0L89.5 0.048615L37.9306 35.3343L59.8529 50.2723L89.5 29.9866L89.573 29.938Z" id="Fill-5" fill="#5528FF" fill-rule="evenodd" stroke="none" />
+      <g id="Group-9" transform="translate(0 36.653343)">
+        <path d="M0 0L179 0L179 96.3467L0 96.3467L0 0Z" id="Clip-8" fill="none" fill-rule="evenodd" stroke="none" />
+        <g clip-path="url(#mask_1)">
+          <path d="M89.485 57.8032L0 0.0191514L0 38.562L89.485 96.3475L89.5007 96.3358L179 38.5458L179 0L89.5007 57.7929L89.485 57.8032Z" id="Fill-7" fill="#5528FF" fill-rule="evenodd" stroke="none" />
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

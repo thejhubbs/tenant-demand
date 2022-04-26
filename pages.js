@@ -109,7 +109,7 @@ let pages = {
         imgDivElem.classList.add("final-img");
 
         let imgElem = document.createElement("img");
-        imgElem.setAttribute("src", "./tablet.png");
+        imgElem.setAttribute("src", "./Devices.png");
 
         imgDivElem.append(imgElem);
 
@@ -380,7 +380,7 @@ let pages = {
         }
 
         let noteElem = document.createElement('p')
-        noteElem.textContent = "Note: Percentages are based on total share of traffic across all bookable amenities in VTS Rise-powered buildings in New York (last 180 days)"
+        noteElem.textContent = `Note: Percentages are based on total share of traffic across all bookable amenities in VTS Rise-powered buildings in ${history[0].text.split(' | ')[0]} (last 180 days)`
         noteElem.style.fontSize = '1rem';
         noteElem.style.textAlign = 'center';
 

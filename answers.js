@@ -9,7 +9,7 @@
       after_text:
         "Good choice! Tenant requirements have grown 121% year-over-year in Midtown NYC, so the market is recovering...just not as fast as South Financial District in San Francisco (152% year-over-year growth in tenant requirements).",
       order: 1,
-      image: "./ny.png"
+      image: "./Main-NYC.png"
     },
     {
       text: "Chicago | Fulton Market",
@@ -20,7 +20,7 @@
       after_text:
         "Good choice! Tenant requirements have grown 105% year-over-year in Fulton Market, so the market is recovering...just not as fast as South Financial District in San Francisco (152% year-over-year growth in tenant requirements) or Midtown NYC (121% year-over-year growth in tenant requirements).",
       order: 2,
-      image: "./ch.png"
+      image: "./Main-Chicago.png"
     },
     {
       text: "San Francisco | South Financial",
@@ -31,7 +31,7 @@
       after_text:
         "Great choice! In fact - it's the best choice on the board with 152% year-over-year growth in tenant requirements...not that Fulton Market or Midtown NYC would've been bad choices (105% year-over-year growth and 121% year-over-year growth in tenant requirements, respectively).",
       order: 3,
-      image: "./sf.png"
+      image: "./Main-SanFran.png"
     },
   
     {
@@ -180,7 +180,7 @@
     },
   
     {
-      text: "Keep it raw and unfinished",
+      text: "Keep it raw and unfurnished",
       parent_question_id: 6,
       to_question_id: 9,
       after_text:
@@ -205,7 +205,7 @@
     },
   
     {
-      text: "Keep it raw and unfinished",
+      text: "Keep it raw and unfurnished",
       parent_question_id: 7,
       to_question_id: 9,
       after_text:
@@ -230,11 +230,11 @@
     },
   
     {
-      text: "Keep it raw and unfinished",
+      text: "Keep it raw and unfurnished",
       parent_question_id: 8,
       to_question_id: 9,
       after_text:
-        "Solid choice! According to VTS Market, 20k sf raw listings are averaging almost 3x more online engagement than pre-built listings of the same size in Midtown. However, white box listings of the same size average about 20% more online engagement than raw listings. Solid choice! According to VTS Market, 20k sf raw listings are averaging almost 3x more online engagement than pre-built listings of the same size in Midtown. However, white box listings of the same size average about 20% more online engagement than raw listings.",
+        "Solid choice! According to VTS Market, 20k sf raw listings are averaging almost 3x more online engagement than pre-built listings of the same size in Midtown. However, white box listings of the same size average about 20% more online engagement than raw listings.",
       order: 1
     },
     {
@@ -262,7 +262,7 @@
       after_text:
         "Great choice! According to VTS Market, a video of a raw listing in Midtown is 2x more likely to be viewed than a 3D rendering, while Matterports are uncommonly used (just two published for raw Midtown listings in 2022). ",
       order: 1,
-      image: "./a.png"
+      image: "./100 Causeway.gif"
     },
     {
       text: "3D Rendering",
@@ -272,7 +272,7 @@
       after_text:
         "Solid choice! According to VTS Market, Matterports are uncommonly used for raw listings (just two published for raw Midtown listings in 2022). However, a video of a raw listing in Midtown is 2x more likely to be viewed than a 3D rendering.",
       order: 2,
-      image: "./b.png"
+      image: "./Brookfield1.gif"
     },
     {
       text: "Matterport",
@@ -282,7 +282,7 @@
       after_text:
         "An interesting choice! It's quite uncommon to see Matterports for raw listings. According to VTS Market, just two Matterports have been published for raw Midtown listings in 2022. Your best bet would have been to get a video created, which is 2x more likely to be viewed than any virtual tour type for a raw Midtown listing.",
       order: 3,
-      image: "./c.png"
+      image: "./Matterport.gif"
     },
   
     {
@@ -293,7 +293,7 @@
       after_text:
         "Great choice! According to VTS Market, a video of a white box listing in Midtown is about 6x more likely to get viewed than a 3D rendering and about 10% more likely to get viewed than a Matterport.",
       order: 1,
-      image: "./a.png"
+      image: "./100 Causeway.gif"
     },
     {
       text: "3D Rendering",
@@ -303,7 +303,7 @@
       after_text:
         "An understandable choice! 3D renderings can be highly engaging, but there were better options. According to VTS Market, a video of a white box listing in Midtown is about 6x more likely to get viewed, and a Matterport is about 5x more likely to be viewed than a 3D rendering.",
       order: 2,
-      image: "./b.png"
+      image: "./Brookfield1.gif"
     },
     {
       text: "Matterport",
@@ -313,7 +313,7 @@
       after_text:
         "Solid choice! According to VTS Market, a Matterport of a white box listing in Midtown is about 5x more likely to get viewed than a 3D rendering. However, a video of a white box listing in Midtown is about 10% more likely to be viewed than a Matterport.",
       order: 3,
-      image: "./c.png"
+      image: "./Matterport.gif"
     },
   
     {
@@ -324,7 +324,7 @@
       after_text:
         "Great choice! According to VTS Market, a video of a pre-built listing in Midtown is about 9x more likely to get viewed than a 3D rendering and about 3x more likely to get viewed than a Matterport.",
       order: 1,
-      image: "./a.png"
+      image: "./100 Causeway.gif"
     },
     {
       text: "3D Rendering",
@@ -334,7 +334,7 @@
       after_text:
         "An understandable choice! 3D renderings can be highly engaging, but there were better options. According to VTS Market, a video of a pre-built listing in Midtown is about 9x more likely to get viewed, and a Matterport is about 3x more likely to be viewed than a 3D rendering.",
       order: 2,
-      image: "./b.png"
+      image: "./Brookfield1.gif"
     },
     {
       text: "Matterport",
@@ -344,7 +344,7 @@
       after_text:
         "Solid choice! According to VTS Market, a Matterport of a pre-built listing in Midtown is about 3x more likely to get viewed than a 3D rendering. However, a video of a pre-built listing in Midtown is over 3x more likely to be viewed than a Matterport.",
       order: 3,
-      image: "./c.png"
+      image: "./Matterport.gif"
     },
   
     {
@@ -354,7 +354,7 @@
       after_text: "Boo-yah! Excellent choice, that amenity will really get the tenants going.",
       statistic: "93",
       order: 1,
-      image: "./1.png"
+      image: "./flexspace.jpeg"
     },
     {
       text: "Fitness Center",
@@ -364,7 +364,7 @@
         "Solid! If you build it, they will (probably) come.",
         statistic: "5",
       order: 2,
-      image: "./2.png"
+      image: "./3.png"
     },
     {
       text: "Tenant Lounge",
@@ -374,7 +374,7 @@
         "Ok! There are more popular options, but you didn't become a success by doing what everyone else is doing - right?",
         statistic: "1",
       order: 3,
-      image: "./3.png"
+      image: "./Tenant Lounge.png"
     },
     {
       text: "Outdoor Space",
@@ -384,7 +384,7 @@
         "Ok! There are more popular options, but you didn't become a success by doing what everyone else is doing - right?",
         statistic: "1",
       order: 4,
-      image: "./4.png"
+      image: "./2.png"
     },
 
 
@@ -574,7 +574,7 @@
       },
     
       {
-        text: "Keep it raw and unfinished",
+        text: "Keep it raw and unfurnished",
         parent_question_id: 26,
         to_question_id: 29,
         after_text:
@@ -582,7 +582,7 @@
         order: 1
       },
       {
-        text: "Keep it raw and unfinished",
+        text: "Keep it raw and unfurnished",
         parent_question_id: 27,
         to_question_id: 29,
         after_text:
@@ -590,7 +590,7 @@
         order: 1
       },
       {
-        text: "Keep it raw and unfinished",
+        text: "Keep it raw and unfurnished",
         parent_question_id: 28,
         to_question_id: 29,
         after_text:
@@ -658,7 +658,7 @@
         after_text:
           "An understandable choice! Videos can be highly engaging, but there's a better option. According to VTS Market, 3D renderings are the most-viewed virtual tour type for raw listings in Chicago.",
         order: 1,
-      image: "./a.png"
+      image: "./100 Causeway.gif"
       },
       {
         text: "Video",
@@ -668,7 +668,7 @@
         after_text:
           "Great choice! According to VTS Market, a video of a white box listing in Chicago is at least 9x more likely to get viewed than a 3D rendering or Matterport.",
         order: 1,
-      image: "./a.png"
+      image: "./100 Causeway.gif"
       },
     
       {
@@ -679,7 +679,7 @@
         after_text:
           "Great choice! According to VTS Market, a video of a pre-built listing in Chicago is at least 4x more likely to get viewed than a 3D rendering or Matterport.",
         order: 1,
-      image: "./a.png"
+      image: "./100 Causeway.gif"
       },
       {
         text: "3D Rendering",
@@ -689,7 +689,7 @@
         after_text:
           "Great choice! According to VTS Market, 3D renderings are the most-viewed virtual tour type for raw listings in Chicago.",
         order: 2,
-      image: "./b.png"
+      image: "./Brookfield1.gif"
       },
       {
         text: "3D Rendering",
@@ -699,7 +699,7 @@
         after_text:
           "Solid choice! According to VTS Market, 3D renderings of white box listings in Chicago get more online engagement than Matterports. However, a video of a white box listing in Chicago is 9x more likely to be viewed than a 3D rendering. ",
         order: 2,
-      image: "./b.png"
+      image: "./Brookfield1.gif"
       },
       {
         text: "3D Rendering",
@@ -709,7 +709,7 @@
         after_text:
           "Solid choice! According to VTS Market, 3D renderings of pre-built listings in Chicago get more online engagement than Matterports. However, a video of a pre-built listing in Chicago is about 4x more likely to be viewed than a 3D rendering. ",
         order: 2,
-      image: "./b.png"
+      image: "./Brookfield1.gif"
       },
       {
         text: "Matterport",
@@ -719,7 +719,7 @@
         after_text:
           "An interesting choice! It's quite uncommon to see Matterports for raw listings. According to VTS Market, just one Matterport has been published for raw Chicago listings in 2022. 3D renderings are the most-viewed virtual tour type for raw listings in Chicago.",
         order: 3,
-      image: "./c.png"
+      image: "./Matterport.gif"
       },
     
       {
@@ -730,7 +730,7 @@
         after_text:
           "An understandable choice! Matterports can be highly engaging, but there's a better option. According to VTS Market, videos are the most-viewed virtual tour type for white box listings in Chicago.",
         order: 3,
-      image: "./c.png"
+      image: "./Matterport.gif"
       },
       {
         text: "Matterport",
@@ -740,7 +740,7 @@
         after_text:
           "An understandable choice! Matterports can be highly engaging, but there's a better option. According to VTS Market, a video of a pre-built listing in Chicago is at least 4x more likely to be viewed than any other virtual tour type.",
         order: 3,
-      image: "./c.png"
+      image: "./Matterport.gif"
       },
     
       {
@@ -750,7 +750,7 @@
         after_text: "Boo-yah! Excellent choice, that amenity will really get the tenants going.",
         statistic: "89",
         order: 1,
-        image: "./1.png"
+        image: "./flexspace.jpeg"
       },
       {
         text: "Fitness Center",
@@ -760,7 +760,7 @@
           "Solid! If you build it, they will (probably) come.",
           statistic: "7",
         order: 2,
-        image: "./2.png"
+        image: "./3.png"
       },
       {
         text: "Tenant Lounge",
@@ -770,7 +770,7 @@
           "Ok! There are more popular options, but you didn't become a success by doing what everyone else is doing - right?",
           statistic: "3",
         order: 3,
-        image: "./3.png"
+        image: "./Tenant Lounge.png"
       },
       {
         text: "Outdoor Space",
@@ -971,7 +971,7 @@
 
     
       {
-        text: "Keep it raw and unfinished",
+        text: "Keep it raw and unfurnished",
         parent_question_id: 46,
         to_question_id: 49,
         after_text:
@@ -979,7 +979,7 @@
         order: 1
       },
       {
-        text: "Keep it raw and unfinished",
+        text: "Keep it raw and unfurnished",
         parent_question_id: 47,
         to_question_id: 49,
         after_text:
@@ -987,7 +987,7 @@
         order: 1
       },
       {
-        text: "Keep it raw and unfinished",
+        text: "Keep it raw and unfurnished",
         parent_question_id: 48,
         to_question_id: 49,
         after_text:
@@ -1053,7 +1053,7 @@
         after_text:
           "Great choice! According to VTS Market, videos are the most-viewed virtual tour type for raw listings.",
         order: 1,
-      image: "./a.png"
+      image: "./100 Causeway.gif"
       },
       {
         text: "Video",
@@ -1063,7 +1063,7 @@
         after_text:
           "Solid choice! According to VTS Market, videos are commonly used for white box listings. However, a 3D rendering of a white box listing in San Francisco is about 45% more likely to ve viewed than a video.",
         order: 1,
-      image: "./a.png"
+      image: "./100 Causeway.gif"
       },
       {
         text: "Video",
@@ -1073,7 +1073,7 @@
         after_text:
           "Great choice! According to VTS Market, a video of a pre-built listing in San Francisco is about 50% more likely to get viewed than a Matterport and over 10x more likely to get viewed than a 3D rendering.",
         order: 1,
-      image: "./a.png"
+      image: "./100 Causeway.gif"
       },
       {
         text: "3D Rendering",
@@ -1083,7 +1083,7 @@
         after_text:
           "Solid choice! According to VTS Market, 3D renderings are commonly used for raw listings, but videos are the most-viewed virtual tour type for raw listings.",
         order: 2,
-      image: "./b.png"
+      image: "./Brookfield1.gif"
       },
       {
         text: "3D Rendering",
@@ -1093,7 +1093,7 @@
         after_text:
           "Great choice! According to VTS Market, 3D renderings are the most-viewed virtual tour type for white box listings in San Francisco.",
         order: 2,
-      image: "./b.png"
+      image: "./Brookfield1.gif"
       },
       {
         text: "3D Rendering",
@@ -1103,7 +1103,7 @@
         after_text:
           "An understandable choice! 3D renderings can be highly engaging, but there were better options. According to VTS Market, both a video or a Matterport of a pre-built listing in San Francisco is over 10x more likely to get viewed than a 3D rendering.",
         order: 2,
-      image: "./b.png"
+      image: "./Brookfield1.gif"
       },
       {
         text: "Matterport",
@@ -1113,7 +1113,7 @@
         after_text:
           "An interesting choice! It's quite uncommon to see Matterports for raw listings. According to VTS Market, we've yet to see one be published for a raw listing in San Francisco in 2022. Videos are the most-viewed virtual tour type for raw listings.",
         order: 3,
-      image: "./c.png"
+      image: "./Matterport.gif"
       },
     
       {
@@ -1124,7 +1124,7 @@
         after_text:
           "An understandable choice! Matterports can be highly engaging, but there's a better option. According to VTS Market, 3D renderings are the most-viewed virtual tour type for white box listings in San Francisco.",
         order: 3,
-      image: "./c.png"
+      image: "./Matterport.gif"
       },
     
       {
@@ -1135,7 +1135,7 @@
         after_text:
           "Solid choice! According to VTS Market, a Matterport of a pre-built listing in San Francisco is over 10x more likely to get viewed than a 3D rendering. However, a video of a pre-built listing in San Francisco is about 50% more likely to be viewed than a Matterport.",
         order: 3,
-      image: "./c.png"
+      image: "./Matterport.gif"
       },
     
       {
@@ -1145,7 +1145,7 @@
         after_text: "Solid! If you build it, they will (probably) come.",
         statistic: "24",
         order: 1,
-        image: "./1.png"
+        image: "./flexspace.jpeg"
       },
       {
         text: "Fitness Center",
@@ -1155,7 +1155,7 @@
           "Boo-yah! Excellent choice, that amenity will really get the tenants going.",
           statistic: "59",
         order: 2,
-        image: "./2.png"
+        image: "./3.png"
       },
       {
         text: "Tenant Lounge",
@@ -1165,7 +1165,7 @@
           "Ok! There are more popular options, but you didn't become a success by doing what everyone else is doing - right?",
           statistic: "17",
         order: 3,
-        image: "./3.png"
+        image: "./Tenant Lounge.png"
       },
       {
         text: "Outdoor Space",

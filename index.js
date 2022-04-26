@@ -85,12 +85,25 @@ const displayQuestion = (question) => {
 
         let entryInputElem = document.createElement("input");
         entryInputElem.setAttribute("id", "tdgame-input");
-        let entryTextElem = document.createElement("span");
 
-        entryTextElem.textContent = "$ per sf/yr";
+
+        entryInputElem.addEventListener('keypress', (e) => {         
+            if(`${Number.parseInt(e.key)}` !== e.key) {
+                e.preventDefault();
+            }
+        })
+
+
+        let entryTextElem = document.createElement("span");
+        entryTextElem.textContent = " per sf/yr";
         entryTextElem.classList.add('huge-serif-font')
 
-        entryElem.append(entryInputElem, entryTextElem);
+        
+        let entryTextElem2 = document.createElement("span");
+        entryTextElem2.textContent = "$";
+        entryTextElem2.classList.add('huge-serif-font')
+
+        entryElem.append(entryTextElem2, entryInputElem, entryTextElem);
 
         elem.append(entryElem);
 
@@ -198,7 +211,7 @@ const displayHome = () => {
     hpeText.setAttribute("id", "home-explain-text");
     
     hpeText.textContent =
-        "You are the Head of Asset Management for a 5M rst portfolio of Class A office properties. Recently you and the Investments team have been looking to expand your footprint to one of three major metros in the U.S.";
+        "You are the Head of Asset Management for a 5M rsf portfolio of Class A office properties. Recently you and the Investments team have been looking to expand your footprint to one of three major metros in the U.S.";
 
     let hpeSubheader = document.createElement("h3");
     hpeSubheader.setAttribute("id", "home-explain-list-header");
@@ -208,9 +221,9 @@ const displayHome = () => {
     hpeLi1.textContent = "Select a building to acquire";
     let hpeLi2 = document.createElement("li");
     hpeLi2.textContent =
-        "Create a positioning strategy to lease up your vacant floors";
+        "Create a positioning strategy to lease up a vacant floor";
     let hpeLi3 = document.createElement("li");
-    hpeLi3.textContent = "Market the vacant floors";
+    hpeLi3.textContent = "Market the vacant floor";
     let hpeLi4 = document.createElement("li");
     hpeLi4.textContent =
         "Build a new amenity in the building to attract tenants back to the office";

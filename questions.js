@@ -11,7 +11,7 @@ let questions = [
       text:
         "There's an opportunity to break up the vacant floor (20k rsf) into multiple spaces. How do you want to break up the floor? ",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_NYC-Q1.png",
       display: 1
     },
   
@@ -20,7 +20,7 @@ let questions = [
       text:
         "You've heard anecdotes about tenants touring in the market. What tenant industry profile do you want to target?",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_NYC-Q3.png",
       display: 2
     },
     {
@@ -28,7 +28,7 @@ let questions = [
       text:
         "You've heard anecdotes about tenants touring in the market. What tenant industry profile do you want to target?",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_NYC-Q3.png",
       display: 2
     },
     {
@@ -36,7 +36,7 @@ let questions = [
       text:
         "You've heard anecdotes about tenants touring in the market. What tenant industry profile do you want to target?",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_NYC-Q3.png",
       display: 2
     },
   
@@ -44,29 +44,29 @@ let questions = [
       question_id: 6,
       text: "The floor is raw and unfurnished. Do you want to build it out?",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_NYC-Q2.png",
       display: 3
     },
     {
       question_id: 7,
       text: "The floor is raw and unfurnished. Do you want to build it out?",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_NYC-Q2.png",
       display: 3
     },
     {
       question_id: 8,
       text: "The floor is raw and unfurnished. Do you want to build it out?",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_NYC-Q2.png",
       display: 3
     },
   
     {
       question_id: 9,
-      text: "What asking rent do you want to set?",
+      text: "Excellent! Perhaps the most critical decision yet - what asking rent do you want to set?",
       kind: "range",
-      background: "./nyc-bkg.png",
+      background: "./TDG_NYC-Q3.png",
       display: 4,
   
       correct: 82,
@@ -81,9 +81,9 @@ let questions = [
     },
     {
       question_id: 10,
-      text: "What asking rent do you want to set?",
+      text: "Excellent! Perhaps the most critical decision yet - what asking rent do you want to set?",
       kind: "range",
-      background: "./nyc-bkg.png",
+      background: "./TDG_NYC-Q3.png",
       display: 4,
   
       correct: 82,
@@ -98,9 +98,9 @@ let questions = [
     },
     {
       question_id: 11,
-      text: "What asking rent do you want to set?",
+      text: "Excellent! Perhaps the most critical decision yet - what asking rent do you want to set?",
       kind: "range",
-      background: "./nyc-bkg.png",
+      background: "./TDG_NYC-Q3.png",
       display: 4,
   
       correct: 82,
@@ -119,7 +119,7 @@ let questions = [
       text:
         "Last question before going to market! How do you want tenants to experience your spaces online?",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_NYC-Q3.png",
       display: 5
     },
     {
@@ -127,7 +127,7 @@ let questions = [
       text:
         "Last question before going to market! How do you want tenants to experience your spaces online?",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_NYC-Q3.png",
       display: 5
     },
     {
@@ -135,7 +135,7 @@ let questions = [
       text:
         "Last question before going to market! How do you want tenants to experience your spaces online?",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_NYC-Q3.png",
       display: 5
     },
     {
@@ -143,7 +143,7 @@ let questions = [
       text:
         "Which amenity would you like to build out in your newly acquired building?",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_NYC-Q3.png",
       display: 6
     },
 
@@ -165,7 +165,7 @@ let questions = [
       text:
         "There's an opportunity to break up the vacant floor (20k rsf) into multiple spaces. How do you want to break up the floor? ",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_Chicago-Q1.png",
       display: 1
     },
   
@@ -174,7 +174,7 @@ let questions = [
       text:
         "You've heard anecdotes about tenants touring in the market. What tenant industry profile do you want to target?",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_Chicago-Q3.png",
       display: 2
     },
     {
@@ -182,7 +182,7 @@ let questions = [
       text:
         "You've heard anecdotes about tenants touring in the market. What tenant industry profile do you want to target?",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_Chicago-Q3.png",
       display: 2
     },
     {
@@ -190,7 +190,7 @@ let questions = [
       text:
         "You've heard anecdotes about tenants touring in the market. What tenant industry profile do you want to target?",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_Chicago-Q3.png",
       display: 2
     },
   
@@ -198,72 +198,71 @@ let questions = [
       question_id: 26,
       text: "The floor is raw and unfurnished. Do you want to build it out?",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_Chicago-Q2.png",
       display: 3
     },
     {
       question_id: 27,
       text: "The floor is raw and unfurnished. Do you want to build it out?",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_Chicago-Q2.png",
       display: 3
     },
     {
       question_id: 28,
       text: "The floor is raw and unfurnished. Do you want to build it out?",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_Chicago-Q2.png",
       display: 3
     },
   
     {
       question_id: 29,
-      text: "What asking rent do you want to set?",
+      text: "Excellent! Perhaps the most critical decision yet - what asking rent do you want to set?",
       kind: "range",
-      background: "./nyc-bkg.png",
+      background: "./TDG_Chicago-Q3.png",
       display: 4,
   
-      correct: 82,
+      correct: 48,
       under_text:
-        "You'll should be quite competitive! The avg. gross starting rent for spaces Class A properties in Midtown is $82.00/sf. You could definitely ask for more, but it is a tenant's market, after all.",
+        "You should be quite competitive! The avg. gross starting rent for spaces in Fulton Market is $48.30/sf.. You could definitely ask for more, but it is a tenant's market, after all.",
       at_text:
-        "Wow! You really know your stuff. The avg. gross starting rent for spaces Class A properties in Midtown is $82.00/sf. That's a very competitive price.",
+        "Wow! You really know your stuff. The avg. gross starting rent for spaces Class A properties in Fulton Market is $48.30/sf. That's a very competitive price",
       over_text:
-        "We like the confidence! The avg. gross starting rent for spaces Class A properties in Midtown is $82.00/sf. It's aggressive, but someone is bound to bite.",
+        "We like the confidence! The avg. gross starting rent for spaces Class A properties Fulton Market is $48.30/sf. It's aggressive, but someone is bound to bite.",
   
       to_question_id: 32
     },
     {
       question_id: 30,
-      text: "What asking rent do you want to set?",
+      text: "Excellent! Perhaps the most critical decision yet - what asking rent do you want to set?",
       kind: "range",
-      background: "./nyc-bkg.png",
+      background: "./TDG_Chicago-Q3.png",
       display: 4,
-  
-      correct: 82,
+      correct: 48,
       under_text:
-        "You'll should be quite competitive! The avg. gross starting rent for spaces Class A properties in Midtown is $82.00/sf. You could definitely ask for more, but it is a tenant's market, after all.",
+        "You should be quite competitive! The avg. gross starting rent for spaces in Fulton Market is $48.30/sf.. You could definitely ask for more, but it is a tenant's market, after all.",
       at_text:
-        "Wow! You really know your stuff. The avg. gross starting rent for spaces Class A properties in Midtown is $82.00/sf. That's a very competitive price.",
+        "Wow! You really know your stuff. The avg. gross starting rent for spaces Class A properties in Fulton Market is $48.30/sf. That's a very competitive price",
       over_text:
-        "We like the confidence! The avg. gross starting rent for spaces Class A properties in Midtown is $82.00/sf. It's aggressive, but someone is bound to bite.",
+        "We like the confidence! The avg. gross starting rent for spaces Class A properties Fulton Market is $48.30/sf. It's aggressive, but someone is bound to bite.",
   
       to_question_id: 33
     },
     {
       question_id: 31,
-      text: "What asking rent do you want to set?",
+      text: "Excellent! Perhaps the most critical decision yet - what asking rent do you want to set?",
       kind: "range",
-      background: "./nyc-bkg.png",
+      background: "./TDG_Chicago-Q3.png",
       display: 4,
   
-      correct: 82,
+      correct: 48,
       under_text:
-        "You'll should be quite competitive! The avg. gross starting rent for spaces Class A properties in Midtown is $82.00/sf. You could definitely ask for more, but it is a tenant's market, after all.",
+        "You should be quite competitive! The avg. gross starting rent for spaces in Fulton Market is $48.30/sf.. You could definitely ask for more, but it is a tenant's market, after all.",
       at_text:
-        "Wow! You really know your stuff. The avg. gross starting rent for spaces Class A properties in Midtown is $82.00/sf. That's a very competitive price.",
+        "Wow! You really know your stuff. The avg. gross starting rent for spaces Class A properties in Fulton Market is $48.30/sf. That's a very competitive price",
       over_text:
-        "We like the confidence! The avg. gross starting rent for spaces Class A properties in Midtown is $82.00/sf. It's aggressive, but someone is bound to bite.",
+        "We like the confidence! The avg. gross starting rent for spaces Class A properties Fulton Market is $48.30/sf. It's aggressive, but someone is bound to bite.",
   
       to_question_id: 34
     },
@@ -273,7 +272,7 @@ let questions = [
       text:
         "Last question before going to market! How do you want tenants to experience your spaces online?",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_Chicago-Q3.png",
       display: 5
     },
     {
@@ -281,7 +280,7 @@ let questions = [
       text:
         "Last question before going to market! How do you want tenants to experience your spaces online?",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_Chicago-Q3.png",
       display: 5
     },
     {
@@ -289,7 +288,7 @@ let questions = [
       text:
         "Last question before going to market! How do you want tenants to experience your spaces online?",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_Chicago-Q3.png",
       display: 5
     },
     {
@@ -297,7 +296,7 @@ let questions = [
       text:
         "Which amenity would you like to build out in your newly acquired building?",
       kind: "multiple",
-      background: "./nyc-bkg.png",
+      background: "./TDG_Chicago-Q3.png",
       display: 6
     },
 
@@ -322,7 +321,7 @@ let questions = [
         text:
           "There's an opportunity to break up the vacant floor (20k rsf) into multiple spaces. How do you want to break up the floor? ",
         kind: "multiple",
-        background: "./nyc-bkg.png",
+        background: "./TDG_SanFran-Q1.png",
         display: 1
       },
     
@@ -331,7 +330,7 @@ let questions = [
         text:
           "You've heard anecdotes about tenants touring in the market. What tenant industry profile do you want to target?",
         kind: "multiple",
-        background: "./nyc-bkg.png",
+        background: "./TDG_SanFran-Q3.png",
         display: 2
       },
       {
@@ -339,7 +338,7 @@ let questions = [
         text:
           "You've heard anecdotes about tenants touring in the market. What tenant industry profile do you want to target?",
         kind: "multiple",
-        background: "./nyc-bkg.png",
+        background: "./TDG_SanFran-Q3.png",
         display: 2
       },
       {
@@ -347,7 +346,7 @@ let questions = [
         text:
           "You've heard anecdotes about tenants touring in the market. What tenant industry profile do you want to target?",
         kind: "multiple",
-        background: "./nyc-bkg.png",
+        background: "./TDG_SanFran-Q3.png",
         display: 2
       },
     
@@ -355,72 +354,72 @@ let questions = [
         question_id: 46,
         text: "The floor is raw and unfurnished. Do you want to build it out?",
         kind: "multiple",
-        background: "./nyc-bkg.png",
+        background: "./TDG_SanFran-Q2.png",
         display: 3
       },
       {
         question_id: 47,
         text: "The floor is raw and unfurnished. Do you want to build it out?",
         kind: "multiple",
-        background: "./nyc-bkg.png",
+        background: "./TDG_SanFran-Q2.png",
         display: 3
       },
       {
         question_id: 48,
         text: "The floor is raw and unfurnished. Do you want to build it out?",
         kind: "multiple",
-        background: "./nyc-bkg.png",
+        background: "./TDG_SanFran-Q2.png",
         display: 3
       },
     
       {
         question_id: 49,
-        text: "What asking rent do you want to set?",
+        text: "Excellent! Perhaps the most critical decision yet - what asking rent do you want to set?",
         kind: "range",
-        background: "./nyc-bkg.png",
+        background: "./TDG_SanFran-Q3.png",
         display: 4,
     
-        correct: 82,
+        correct: 93,
         under_text:
-          "You'll should be quite competitive! The avg. gross starting rent for spaces Class A properties in Midtown is $82.00/sf. You could definitely ask for more, but it is a tenant's market, after all.",
+          "You should be quite competitive! The avg. gross starting rent for spaces Class A properties in South Financial District is $92.66 sf. You could definitely ask for more, but it is a tenant's market, after all.",
         at_text:
-          "Wow! You really know your stuff. The avg. gross starting rent for spaces Class A properties in Midtown is $82.00/sf. That's a very competitive price.",
+          "Wow! You really know your stuff. The avg. gross starting rent for spaces Class A properties in South Financial District is $92.66 sf. That's a very competitive price",
         over_text:
-          "We like the confidence! The avg. gross starting rent for spaces Class A properties in Midtown is $82.00/sf. It's aggressive, but someone is bound to bite.",
+          "We like the confidence! The avg. gross starting rent for spaces Class A properties in South Financial District is $92.66 sf. It's aggressive, but someone is bound to bite.",
     
         to_question_id: 52
       },
       {
         question_id: 50,
-        text: "What asking rent do you want to set?",
+        text: "Excellent! Perhaps the most critical decision yet - what asking rent do you want to set?",
         kind: "range",
-        background: "./nyc-bkg.png",
+        background: "./TDG_SanFran-Q3.png",
         display: 4,
     
-        correct: 82,
+        correct: 93,
         under_text:
-          "You'll should be quite competitive! The avg. gross starting rent for spaces Class A properties in Midtown is $82.00/sf. You could definitely ask for more, but it is a tenant's market, after all.",
+          "You should be quite competitive! The avg. gross starting rent for spaces Class A properties in South Financial District is $92.66 sf. You could definitely ask for more, but it is a tenant's market, after all.",
         at_text:
-          "Wow! You really know your stuff. The avg. gross starting rent for spaces Class A properties in Midtown is $82.00/sf. That's a very competitive price.",
+          "Wow! You really know your stuff. The avg. gross starting rent for spaces Class A properties in South Financial District is $92.66 sf. That's a very competitive price",
         over_text:
-          "We like the confidence! The avg. gross starting rent for spaces Class A properties in Midtown is $82.00/sf. It's aggressive, but someone is bound to bite.",
+          "We like the confidence! The avg. gross starting rent for spaces Class A properties in South Financial District is $92.66 sf. It's aggressive, but someone is bound to bite.",
     
         to_question_id: 53
       },
       {
         question_id: 51,
-        text: "What asking rent do you want to set?",
+        text: "Excellent! Perhaps the most critical decision yet - what asking rent do you want to set?",
         kind: "range",
-        background: "./nyc-bkg.png",
+        background: "./TDG_SanFran-Q3.png",
         display: 4,
     
-        correct: 82,
+        correct: 93,
         under_text:
-          "You'll should be quite competitive! The avg. gross starting rent for spaces Class A properties in Midtown is $82.00/sf. You could definitely ask for more, but it is a tenant's market, after all.",
+          "You should be quite competitive! The avg. gross starting rent for spaces Class A properties in South Financial District is $92.66 sf. You could definitely ask for more, but it is a tenant's market, after all.",
         at_text:
-          "Wow! You really know your stuff. The avg. gross starting rent for spaces Class A properties in Midtown is $82.00/sf. That's a very competitive price.",
+          "Wow! You really know your stuff. The avg. gross starting rent for spaces Class A properties in South Financial District is $92.66 sf. That's a very competitive price",
         over_text:
-          "We like the confidence! The avg. gross starting rent for spaces Class A properties in Midtown is $82.00/sf. It's aggressive, but someone is bound to bite.",
+          "We like the confidence! The avg. gross starting rent for spaces Class A properties in South Financial District is $92.66 sf. It's aggressive, but someone is bound to bite.",
     
         to_question_id: 54
       },
@@ -430,7 +429,7 @@ let questions = [
         text:
           "Last question before going to market! How do you want tenants to experience your spaces online?",
         kind: "multiple",
-        background: "./nyc-bkg.png",
+        background: "./TDG_SanFran-Q3.png",
         display: 5
       },
       {
@@ -438,7 +437,7 @@ let questions = [
         text:
           "Last question before going to market! How do you want tenants to experience your spaces online?",
         kind: "multiple",
-        background: "./nyc-bkg.png",
+        background: "./TDG_SanFran-Q3.png",
         display: 5
       },
       {
@@ -446,7 +445,7 @@ let questions = [
         text:
           "Last question before going to market! How do you want tenants to experience your spaces online?",
         kind: "multiple",
-        background: "./nyc-bkg.png",
+        background: "./TDG_SanFran-Q3.png",
         display: 5
       },
       {
@@ -454,7 +453,7 @@ let questions = [
         text:
           "Which amenity would you like to build out in your newly acquired building?",
         kind: "multiple",
-        background: "./nyc-bkg.png",
+        background: "./TDG_SanFran-Q3.png",
         display: 6
       },
   ];

@@ -499,7 +499,7 @@ const displayResults = (answer, i) => {
         answerElem.innerHTML += `<p>${answer.value}</p>`
 
         let feebackElem = document.createElement('div')
-        feebackElem.innerHTML += `<h3>What data tells us</h3>`
+        feebackElem.innerHTML += `<h3>What VTS data tells us</h3>`
 
         let lowBound = question.correct * 0.95;
         let highBound = question.correct * 1.05;
@@ -532,7 +532,7 @@ const displayResults = (answer, i) => {
         answerElem.innerHTML += `<p>${answer.text}</p>`
 
         let feebackElem = document.createElement('div')
-        feebackElem.innerHTML += `<h3>What data tells us</h3>`
+        feebackElem.innerHTML += `<h3>What VTS data tells us</h3>`
         feebackElem.innerHTML += `<p>${answer.after_text}</p>`
 
         singleEntry.append(questionElem, answerElem, feebackElem)

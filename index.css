@@ -313,7 +313,6 @@ html {
 
 
 #tdgame .stat-element {
-    
     width: 100%;
     height: 75%;
     position: absolute;
@@ -329,7 +328,7 @@ html {
 
 #tdgame .final-big-header {
     font-size: 3.75rem !important;
-    width: 95%;
+    width: 80%;
     margin-bottom: 1rem;
 }
 
@@ -345,4 +344,8 @@ html {
 
 #tdgame .final-content-button.reset-button {
     margin: 4rem 0 0rem;
+}
+
+#tdgame #question-space:not(.range-question) h2 {
+    width: 85%;
 }

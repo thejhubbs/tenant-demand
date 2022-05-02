@@ -40,7 +40,7 @@ const displayQuestion = (question) => {
     if(question.display === 6) {
         questionNumElem.textContent = `FINAL QUESTION`;
     } else {
-        questionNumElem.textContent = `QUESTION ` + question.display;
+        questionNumElem.textContent = `QUESTION ` + question.display + "- " + history[0]?.text.toUpperCase();
     }
 
     let questionTextElem = document.createElement("h2");

@@ -748,7 +748,7 @@
         parent_question_id: 35,
         to_question_id: "answers6",
         after_text: "Boo-yah! Excellent choice, that amenity will really get the tenants going.",
-        statistic: "24",
+        statistic: "89",
         order: 1,
         image: "./flexspace.jpeg"
       },
@@ -1153,7 +1153,7 @@
         to_question_id: "answers6",
         after_text:
           "Boo-yah! Excellent choice, that amenity will really get the tenants going.",
-          statistic: "59",
+          statistic: "58",
         order: 2,
         image: "./3.png"
       },

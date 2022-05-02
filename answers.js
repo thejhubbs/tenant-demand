@@ -1,13 +1,13 @@
 
   let answers = [
     {
-      text: "New York | Midtown South",
+      text: "New York | Midtown",
       parent_question_id: 1,
       //to_question_id: 2,
       to_question_id: 'prequestions',
       redirect_id: 2,
       after_text:
-        "Good choice! Tenant requirements have grown 121% year-over-year in Midtown NYC, so the market is recovering...just not as fast as South Financial District in San Francisco (152% year-over-year growth in tenant requirements).",
+        "Great choice! Tenant requirements have grown 121% year-over-year in Midtown NYC, and of the three choices is the 2nd closest to pre-COVID levels of demand (Fulton Market is #1).",
       order: 1,
       image: "./Main-NYC.png"
     },
@@ -18,7 +18,7 @@
       to_question_id: 'prequestions',
       redirect_id: 22,
       after_text:
-        "Good choice! Tenant requirements have grown 105% year-over-year in Fulton Market, so the market is recovering...just not as fast as South Financial District in San Francisco (152% year-over-year growth in tenant requirements) or Midtown NYC (121% year-over-year growth in tenant requirements).",
+        "Great choice! Tenant requirements have grown 105% year-over-year in Fulton Market, and of the three choices is the closest to pre-COVID levels of demand.",
       order: 2,
       image: "./Main-Chicago.png"
     },
@@ -29,7 +29,7 @@
       to_question_id: 'prequestions',
       redirect_id: 42,
       after_text:
-        "Great choice! In fact - it's the best choice on the board with 152% year-over-year growth in tenant requirements...not that Fulton Market or Midtown NYC would've been bad choices (105% year-over-year growth and 121% year-over-year growth in tenant requirements, respectively).",
+        "Solid choice! The good news is tenant requirements have grown 152% year-over-year in South Financial District. However, of the three choices, it's the furthest away from pre-COVID levels of demand (Fulton Market is #1).",
       order: 3,
       image: "./Main-SanFran.png"
     },
@@ -744,11 +744,11 @@
       },
     
       {
-        text: "Onsite Cafe",
+        text: "Flex Office Floor",
         parent_question_id: 35,
         to_question_id: "answers6",
         after_text: "Boo-yah! Excellent choice, that amenity will really get the tenants going.",
-        statistic: "89",
+        statistic: "24",
         order: 1,
         image: "./flexspace.jpeg"
       },

@@ -6,6 +6,10 @@ const displayPage = (name) => {
 };
 
 const displayQuestion = (question) => {
+    
+    window.scrollTo(0, 0);
+    document.body.scrollTop = 0;
+    
     let main = document.getElementById("tdgame");
     if (question.background) {
         main.style.backgroundImage = `url('${question.background}')`;
@@ -92,6 +96,13 @@ const displayQuestion = (question) => {
                 e.preventDefault();
             }
         })
+
+
+        entryInputElem.addEventListener('blur', () => {
+            window.scrollTo(0, 0);
+            document.body.scrollTop = 0;
+          })
+
 
 
         let entryTextElem = document.createElement("span");
